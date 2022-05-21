@@ -1,0 +1,39 @@
+<!-- Extension initialized with https://github.com/virejdasani/Chrome-Extension-Boilerplate -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="assets/icon.png"/>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Convert To Bionic</title>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Convert To Bionic</h1>
+        <h5>Developed by <a href="https://github.com/MustafaEminn">MustafaEminn</a></h5>
+    </div>
+    <div class="content">
+        <div class="buttons">
+            <button id="convertPageButton">Convert The Page</button>
+            <button id="convertTextButton">Convert The Text</button>
+        </div>
+        <span class="convertText">Convert Text</span>
+        <textarea name="text" rows="10"></textarea>
+        <span class="resultText">Result Text</span>
+        <div class="resultTextContent"></div>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+
+</html>
